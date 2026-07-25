@@ -1,15 +1,15 @@
 %define upstream_name    String-Diff
-%define upstream_version 0.06
+%define upstream_version 0.11
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Version:	%{upstream_version}
+Release:	1
 
 Summary:	Simple diff to String
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/String/%{upstream_name}-%{upstream_version}.tar.gz
+Url:		https://github.com/renormalist/p5-String-Diff
+Source0:	https://cpan.metacpan.org/authors/id/S/SC/SCHWIGON/String-Diff-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
